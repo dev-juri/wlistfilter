@@ -1,8 +1,4 @@
-Here’s the full **README.md** file with your usage instructions:  
-
-```markdown
 # WhitelistFilter
-
 A simple JavaScript utility for managing and checking whitelisted IPs from a file.
 
 ## Installation
@@ -10,9 +6,8 @@ A simple JavaScript utility for managing and checking whitelisted IPs from a fil
 Clone the repository and install dependencies if required:
 
 ```sh
-git clone <repository_url>
-cd <repository_directory>
-npm install
+git clone https://github.com/dev-juri/wlistfilter.git
+cd wlistfilter
 ```
 
 ## Usage
