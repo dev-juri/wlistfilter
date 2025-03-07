@@ -20,7 +20,7 @@ class WhitelistFilter {
     }
   }
 
-  isIpWhitelisted(ip) {
+  isWhitelisted(ip) {
     return whitelist.has(ip)
   }
 
