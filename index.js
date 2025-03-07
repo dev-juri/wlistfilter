@@ -1,4 +1,4 @@
-const WhitelistFilter = require("./WhitelistFilter.js");
+const WhitelistFilter = require("wlistfilter");
 
 const args = process.argv[2];
 
@@ -20,7 +20,7 @@ let wlFilter = new WhitelistFilter();
   });
 
   rl.on("line", (line) => {
-    if (wlFilter.isIpWhitelisted(line.trim())) {
+    if (wlFilter.isWhitelisted(line.trim())) {
       console.log(`✅ ${line.trim()}`);
     } else {
         console.log('❌ Not Whitelisted')

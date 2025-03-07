@@ -1,7 +1,7 @@
 {
   "name": "wlistfilter",
   "version": "1.0.0",
-  "main": "WhitelistFilter.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dev-juri/wlistfilter.git"
-},
+  },
   "author": "dev-juri",
   "license": "MIT",
   "description": ""
